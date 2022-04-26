@@ -1,0 +1,45 @@
+.banner{
+    background-image: url("FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.navbar-light a.navbar-brand {
+    color: #ffebd2;
+    font-size: 35px;
+}
+
+.navbar-light .navbar-nav a.nav-link {
+    color: #ffebd2;
+    padding-left: 35px;
+}
+
+.ConteudoParagrafo{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo circulo";
+    grid-template-columns: 5fr 5fr;
+}
+
+.paragrafo{
+    color: #ffebd2;
+    align-self: center;
+    margin-left: 20px;
+}
+
+.m{
+    font-size: 35px;
+}
+
+.circulo{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: url("nei.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
